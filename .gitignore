@@ -1,0 +1,6 @@
+#ignorar qualquer folder node_modukes e dist
+
+node_modules
+dist
+
+
