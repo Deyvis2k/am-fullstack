@@ -223,7 +223,6 @@ body {
   color: var(--subtext0);
 }
 
-/* Todas as imagens devem ter o mesmo tamanho */
 .result-card img {
   width: 150px;
   height: auto;
@@ -238,13 +237,11 @@ body {
   border-color: var(--mauve);
 }
 
-/* Loading state */
 #search-body p {
   color: var(--subtext1);
   font-size: 1.1rem;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   #app {
     padding: 1rem;
@@ -403,4 +400,3 @@ body {
   background-color: var(--base);
   color: var(--text);
 }
-
