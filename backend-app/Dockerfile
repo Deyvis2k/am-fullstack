@@ -1,12 +1,13 @@
-# backend-app/Dockerfile
-
-FROM oven/bun:1.0.25
+FROM node:18
 
 WORKDIR /app
 
+COPY package*.json ./
+
+RUN npm install
+
 COPY . .
 
-RUN bun install
+EXPOSE 3333
 
-CMD ["bun", "run", "index.ts"]
-
+CMD ["npm", "start"]

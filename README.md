@@ -13,7 +13,7 @@ docker-compose up --build
 # parar o docker-compose
 docker-compose down
 # ou tudo em uma linha 
-docker compose down -v && docker compose build --no-cache && docker compose up
+docker-compose down -v && docker-compose build --no-cache && docker-compose up
 ```
 
 Isso irá inicializar:
